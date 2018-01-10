@@ -1,0 +1,170 @@
+n body, html {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 1em;
+  margin-right: 2em;
+}
+
+/**            */
+/*** Header ****/
+/**            */
+
+.header__blank {
+  width: 10%;
+  margin: 0;
+}
+
+
+.header__logo {
+  width: 15%;
+  height: 15vw;
+}
+
+
+.header__title {
+  text-align: right;
+  font-family: "Century Gothic", "Times New Roman", Serif;
+  font-weight: lighter;	
+  margin: 0;
+  font-size: 5vw;
+}
+
+
+.subheader {
+  text-align: right;
+  font-family: "Century Gothic", "Times New Roman", Serif;
+  font-weight: lighter;	
+  margin: 0;
+}
+
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 15%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  justify-content: flex-end;
+}
+
+
+.text-container {
+  display: flex; 
+  flex-direction: column;
+  width: 70%; 
+  justify-content: flex-end;
+}
+
+
+.grayline {
+  background-color: #7d97ad;
+  margin: 0.5vw;
+  width: 85%;
+  height: 0.25vw;
+}
+
+
+.body-container {  
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 85%; 
+}
+
+
+.menu-container {
+  display: flex; 
+  flex-direction: column;
+  width: 15%;
+  align-items: center;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  justify-content: space-between;
+}
+
+
+.square {
+  margin: 0;
+  width: 8vw;
+  height: 8vw;
+}
+
+
+.textbox {
+  margin: 0;
+  width: 8vw;
+  height: 4vw;
+  font-family: "Century Gothic", "Times New Roman", Serif;
+  font-weight: normal;
+  font-size: 2vw;
+  color: gray;
+}
+
+
+.blue {
+  background-color: #02b3e4;
+}
+
+
+.black {
+  background-color: #2d3c49;
+}
+
+
+.gray {
+  background-color: #7d97ad;
+}
+
+
+.featuretext {
+  margin-top: 3vw;
+  margin-right: 3vw;
+  width: 100%;
+  font-family: "Century Gothic", "Times New Roman", Serif;
+  font-weight: normal;
+  font-size: 4vw;
+  color: gray;
+}
+
+
+.big_image {
+  margin-top: 0.5em;
+  width: 100%;
+  height: 35vw;
+}
+
+
+.small_image {
+  margin-top: 0.5em;
+  width: 30%;
+  height: 15vw;
+}
+
+
+.imagetext {
+  margin: 0;
+  width: 30%;
+  height: 3vw;
+  font-family: "Century Gothic", "Times New Roman", Serif;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+
+
+.label {
+  font-size: 2vw;
+}
+
+
+.link {
+  font-size: 1.2vw;
+}
